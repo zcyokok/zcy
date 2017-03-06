@@ -1,37 +1,14 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/zcyokok/zcy/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/zcyokok/zcy/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+开源世界的版本控制系统，经历了这么几代：
+第一代，CVS，开创性的产品，至今很多古老项目仍在使用，但存在不少设计上的缺
+陷。
+第二代，SVN，在 CVS 基础上大幅度改进，很快就取代了 CVS 的地位，现在的项目
+数量仍然非常庞大，而且 SVN 的缺陷不算多，很多商业项目似乎没有迁移到下一代版本控
+制系统的打算。比如 Chrome 就是使用 SVN 的。
+第三代，Hg 与 Git。说起这两个，有种既生瑜，何生亮的感脚。这两个项目几乎是同
+时启动的，目标都是为 Linux kernel 提供一个开源可靠的分布式版本控制系统，同样优秀，
+只不过 Git 是 Linus 亲自带队做的，于是 Git 就成了 Linux 的选择。除此之外，Eclipse 从原
+本的 SVN 转移到了 Git，而 Firefox 与 Python 则使用 Hg，国内的金山软件也使用 Hg，而
+Cocos2d 则是 Git，孰优孰劣，不好说。
+总的来说吧，前两代由于集中式管理的缺陷，现在用的肯定会越来越少，不过老项目往
+往不会轻易换。Git 胜在功能强大，分支完善，败在设计复杂，难以理解。Hg 胜在清晰易
+懂，功能完善，败在不利于从 SVN 迁移，相应的社区活跃度不如 Github。
